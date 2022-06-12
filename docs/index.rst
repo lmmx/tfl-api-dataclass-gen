@@ -8,6 +8,12 @@ tfl-api-dataclass-gen: Generate dataclass modules from the TfL API’s Swagger s
 
 .. toctree::
     :maxdepth: 2
+    :caption: Introduction:
+
+    about
+    
+.. toctree::
+    :maxdepth: 2
     :caption: Contents:
 
     api
