@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-tfl-api-dataclass-gen: Generate dataclass modules from the TfL API’s Swagger schema
+tfl-api-dataclass-gen: Generate dataclass modules from the TfL API’s OpenAPI schema
 ===================================================================================
 
 .. toctree::
