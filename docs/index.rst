@@ -11,7 +11,7 @@ tfl-api-dataclass-gen: Generate dataclass modules from the TfL API’s OpenAPI s
     :caption: Introduction:
 
     about
-    
+
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
