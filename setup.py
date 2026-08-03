@@ -61,7 +61,9 @@ META_FILE = META_PATH.read_text()
 def find_meta(meta):
     "Extract __*meta*__ from META_FILE."
     meta_match = re.search(
-        rf"^__{meta}__ = ['\"]([^'\"]*)['\"]", META_FILE, re.MULTILINE
+        rf"^__{meta}__ = ['\"]([^'\"]*)['\"]",
+        META_FILE,
+        re.MULTILINE,
     )
     if meta_match:
         return meta_match.group(1)
